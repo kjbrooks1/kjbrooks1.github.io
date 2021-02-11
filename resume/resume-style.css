@@ -1,0 +1,109 @@
+
+
+/* Global Styles 
+----------------------------------------*/
+
+/* Border Box Fix */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: Monokai, sans-serif;
+	/* text-align: center; */
+	line-height: 125%;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: #011638;
+	font-size: 30px;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	color: #E58F65;
+	margin: 0;
+}
+
+h3 {
+	color: #848586;
+	margin: 0;
+	padding-top: 10px;
+}
+
+hr.dashed {
+	border-top: 3px dashed #bbb;
+}
+
+
+/* Navigation Bar 
+----------------------------------------*/
+.navigation {
+	background: #322738;
+}
+
+.nav-wrapper {
+	text-align: center;
+}
+
+.nav-wrapper p {
+	display: inline-block;
+	padding: 0 50px 0;
+}
+
+.nav-link {
+	color: white;
+	text-decoration: none;
+
+}
+.nav-link:hover {
+	text-decoration: underline;
+}
+
+/* Resume Section
+----------------------------------------*/
+.resume {
+	background-size: cover;
+	background-position: center;
+	width: 100%
+
+	margin: 0;
+	height: 100%;
+	text-align: center;
+}
+
+
+.content-wrapper {
+	padding: 0; /* add later if needed */
+}
+
+
+.resume p {
+	size: 100px;
+	margin: 0;
+}
+
+.icon {
+	width: 80px;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+
+.label {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+
+
+

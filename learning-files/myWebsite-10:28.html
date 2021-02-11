@@ -1,0 +1,74 @@
+</DOCTYPE html>
+<html> <!says that everything inside here is in html>
+	
+
+
+	<head>
+
+  		<meta charset="utf-8"> <!type of unicode - transfers letters to bites>
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<title>Katherine's First Website</title>
+
+	  	<style>
+			* {
+	  			box-sizing: border-box;
+			}
+
+			/* Create two unequal columns that floats next to each other */
+			.column {
+	  			float: left;
+	  			padding: 10px;
+	  			height: 300px; /* Should be removed. Only for demonstration */
+			}
+
+			.left {
+	  			width: 25%;
+			}
+
+			.right {
+	 			width: 75%;
+			}		
+
+			/* Clear floats after the columns */
+			.row:after {
+	  			content: "";
+	  			display: table;
+	  			clear: both;
+			}
+		</style>
+
+	</head>
+
+	<body> <!where load ccss and javascript files>
+  		<h1>My First Website</h1>
+  		<h4>An HTML Playground</h4>
+  		
+      	This is my first website and I'm <b>extremely excited!!!!</b>
+    </body>
+
+	<body>
+
+      	<!make two columns>
+      	<div class="row">
+      		<div class="column left" style="background-color: #b3b3b3;">
+      			<h2>Links:</h2>
+
+      			<h4>Home</h4>
+      			<h4>Resume</h4>
+      			<h4>Skills</h4>
+      			<h4>Education</h4>
+      			<h4>Personal Projects</h4>
+
+      			kjb6234@psu.edu
+      			kjbrooks1@mac.com
+      			
+
+      		</div>
+      		<div class="column right" style="background-color: #e6e6e6;">
+      			<h2>Column2</h2>
+      			<p>Some text...</p>
+      		</div>
+      	</div>
+  	</body>
+
+</html>

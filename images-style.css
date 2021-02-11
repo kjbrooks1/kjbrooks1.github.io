@@ -1,0 +1,103 @@
+
+
+/* Global Styles 
+----------------------------------------*/
+
+/* Border Box Fix */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+img { 
+	width: 30%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+body {
+	font-family: Monokai, sans-serif;
+	/* text-align: center; */
+	line-height: 125%;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	margin: 0;
+}
+
+
+/* Home
+----------------------------------------*/
+.home {
+	width: 100%
+	margin: 0;
+	height: 100%;
+	text-align: center;
+}
+
+h1 {
+	color: #322738;
+	font-size: 30px;
+	margin: 0;
+	padding: 20px 0 10px;
+}
+
+h3 {
+	color: #848586;
+	margin: 0;
+	padding: 0;
+}
+
+.headings {
+	display: inline-block;
+	padding-left: 20px;
+}
+
+.inner-home {
+	margin-top: 5%;
+}
+
+
+/* Navigation Bar
+----------------------------------------*/
+.navigation {
+	background: #322738;
+}
+
+.nav-wrapper {
+	text-align: center;
+}
+
+.nav-wrapper p {
+	display: inline-block;
+	padding: 0 50px 0;
+}
+
+.nav-link {
+	color: white;
+	text-decoration: none;
+
+}
+.nav-link:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
